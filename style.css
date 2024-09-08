@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;/* Свойства для сброса начальных стилей элементов */
+    margin: 0px; /* Свойства для сброса начальных стилей элементов */
 }
 
 body {
@@ -16,14 +16,13 @@ header {
 
 header span {
     font-weight: 700;
-    font-size: 20px ;
-    font-size: 20px bold;
+    font-size: 20px;
     color: #fff;
  /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
-    background: #fafaff
+    background: #fafaff;
     padding-top: 60px;
     padding-bottom: 60px;
     width: 1440px;
@@ -33,8 +32,6 @@ header span {
 }
 
 .main-title {
-    padding-top:  60px;
-    padding-bottom: 20px;
     font-weight: 700;
     font-size: 48px;
     color: #303030;
@@ -50,9 +47,9 @@ header span {
 
 .main-image {
     width: 715px;
+    height: 508px;
     /* Стили для изображения в первой секции */
 }
-
 
 .about-section {
     background-color: #fff;
@@ -65,7 +62,6 @@ select {
     width: 150px;
     height: 36px;
     color: #303030;
-    border-style: 
     /* Стили для выпадающего списка */
 }
 
@@ -140,8 +136,7 @@ table {
     font-size: 14px;
     color: #303030;
     border-collapse: collapse;
-
-    /* Стили для таблицы */
+ /* Стили для таблицы */
 }
 
 th, td {
